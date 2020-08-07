@@ -1,6 +1,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Lemonada&display=swap" rel="stylesheet">
 
 * {
+    
     <link href="https://fonts.googleapis.com/css2?family=Lemonada&display=swap" rel="stylesheet">
     margin: 0;
     padding:0;
@@ -8,17 +9,38 @@
     font-size:62.5%; 
 
 }
-
-
-body{
-    background:red;
+.container {
+    width:1200px;
+    margin: auto;
 }
+
+
 h1{
     font-size: 2rem;
 }
 h2{
     font-size: 2rem;
 }
-p{
+p, a{
     font-size:1.8rem;
+}
+a{
+    text-decoration :none;
+    font-size: 2.5rem;
+}
+nav {
+    display: flex;
+    justify-content:space-around;
+    margin: 20px 0;
+}
+.content{
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.food-content {
+  width:70%;
+  padding:20px;
 }
